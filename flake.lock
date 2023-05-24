@@ -28,11 +28,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1678762336,
-        "narHash": "sha256-ZaWNIp5cv9KFFxkBcj9dM6hdVYb0HimD8/ALLrtpVWs=",
+        "lastModified": 1684905720,
+        "narHash": "sha256-dBxc+DyJEVEi5rjOgGnpDrhPOLCEe7IOe8OFVmC9jfE=",
         "owner": "jmmaloney4",
         "repo": "latex-utils",
-        "rev": "21ce2ffed664ed2c300aa53af389d1711f35a1f8",
+        "rev": "fcc62575471cf44e8386311c6f9b9701ce1b4f45",
         "type": "github"
       },
       "original": {
@@ -43,16 +43,16 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1682109806,
-        "narHash": "sha256-d9g7RKNShMLboTWwukM+RObDWWpHKaqTYXB48clBWXI=",
+        "lastModified": 1684754342,
+        "narHash": "sha256-plGnjnbnPLoZCTdQX21oT7xliQhFtgcWlkuDHgtEb1o=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "2362848adf8def2866fabbffc50462e929d7fffb",
+        "rev": "7084250df3d7f9735087d3234407f3c1fc2400e3",
         "type": "github"
       },
       "original": {
         "owner": "NixOS",
-        "ref": "nixpkgs-unstable",
+        "ref": "nixos-unstable",
         "repo": "nixpkgs",
         "type": "github"
       }

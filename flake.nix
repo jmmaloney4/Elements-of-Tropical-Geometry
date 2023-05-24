@@ -1,9 +1,10 @@
 {
   inputs = {
-    nixpkgs.url = github:NixOS/nixpkgs/nixpkgs-unstable;
+    nixpkgs.url = github:NixOS/nixpkgs/nixos-unstable;
     flake-utils.url = github:numtide/flake-utils;
     latex-utils = {
       url = "github:jmmaloney4/latex-utils";
+      # url = "git+file:../latex-utils";
       inputs = {
         nixpkgs.follows = "nixpkgs";
         flake-utils.follows = "flake-utils";
@@ -19,7 +20,7 @@
       };
 
     in {
-      packages.default = latex-utils.lib.${system}.mkLatexDocument {
+      packages.default = latex-utils.lib.${system}.mkLatexPdfDocument {
         name = "elements-of-tropical-geometry";
         src = self;
         inherit texPackages;
